@@ -16,7 +16,7 @@ from rich.table import Table
 load_dotenv(find_dotenv())
 console = Console()
 
-# Declaring ENV Variables 
+# Declare 
 
 MYSQL_HOST: Final = getenv('MYSQL_HOST')
 MYSQL_PORT: Final = getenv('MYSQL_PORT')
